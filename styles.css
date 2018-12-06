@@ -1,0 +1,41 @@
+p {
+   font-size:75px;
+   color:#3b62a0;
+}
+button{
+  background-color: white;
+  animation-name: rainbow;
+  animation-duration: 10s;
+  animation-play-state:running;
+  animation-iteration-count: 1000;
+  font-size:100px;
+  text-align:center;
+}
+  @keyframes rainbow{ 
+    0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+.container {
+    display:flex; 
+    justify-content:space-around;
+}
+p {
+    border:solid black 10px;
+}
+ol {
+    border:solid black 10px;
+    font-size:50px; }
+    img {
+        border:solid;
+}
+h1 {
+    color:#4618dd;
+    font-size:40px;
+    text-align:center;
+}
+h2 {
+    font-size:40px;
+}
+    
